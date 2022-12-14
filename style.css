@@ -36,17 +36,21 @@
 }
 
 #PROJECTS {
-    height: 300px;
+    height: 100px;
     font-family: 'Calibri', sans-serif;
     background-color: peachpuff;
     color: #ffffff;
 }
 
 #JOKES {
-    height: 300px;
+    height: 100px;
     font-family: 'Calibri', sans-serif;
     background-color: rgb(246, 211, 226);
 
+
+}
+
+#CONTACT {
 
 }
   
@@ -102,4 +106,3 @@ section {
 .footer {
     background-color: rgb(234, 208, 198);
 }
-
