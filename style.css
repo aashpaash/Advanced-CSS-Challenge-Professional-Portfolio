@@ -2,64 +2,62 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: rgb(234, 208, 217);
+    text-align: center;
+}
+
 /*Navation to profoilo pages*/
 .navigation-bar {
     background-color: rgb(247, 235, 221);
-    padding: 10px 10px 10px 10px;
+    padding: 20px;
     text-align: center;
+    font-size: xx-large;
+    margin-bottom: 15px;
 }
 
 /*Photo of me*/
 .hero {
-    height: 800px;
+    height: 1000px;
     display: flex;
-    width: 100%;
     margin-bottom: 25px;
-    background-image: url("MainHeadShot.JPG");
+    background-image: url("./MainHeadShot.JPG");
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    border: 7px solid rgb(122, 171, 171);
 }
 
-.headshot {
-    border: 1px solid;
-    border-color: black;
-    padding-inline: auto;
-}
 
 /*Navation Pages*/
 #ABOUT {
-    height: 300px;
+    height: 100px;
     font-family: 'Calibri', sans-serif;
-    background-color: lavender;
-    color: #ffffff;
     grid-area: auto;
+    margin: 10px 10px;
 }
 
 #PROJECTS {
     height: 100px;
     font-family: 'Calibri', sans-serif;
-    background-color: peachpuff;
-    color: #ffffff;
+    margin: 10px 10px;
+    box-sizing: border-box;
 }
 
 #JOKES {
     height: 100px;
     font-family: 'Calibri', sans-serif;
-    background-color: rgb(246, 211, 226);
-
-
-}
-
-#CONTACT {
+    margin: 10px 10px;
+    box-sizing: border-box;
 
 }
-  
+
 /*Conent sections*/
 .card {
+    background-color: rgb(231, 173, 153);
     border: 7px solid rgb(122, 171, 171);
-    padding: 10px;
     flex: 1 1 20%;
-    margin: 20px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 body {
@@ -67,10 +65,7 @@ body {
     font-family: 'Calibri', sans-serif;
 }
 
-header {
-    background-color: rgb(234, 208, 217);
-    text-align: center;
-}
+
 
 
 h1{
@@ -83,26 +78,33 @@ h1{
 h2{
     color: lavender;
     font-size: 70px;
+    text-align: left;
 }
 
 h3{
     color: rgb(168, 205, 241);
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Calibri', sans-serif;
     text-align: left;
 }
 
 .img {
-    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-section {
-    background-color: rgb(231, 173, 153);
+section { 
+
+    margin-bottom: 5px;
 }
 
 /*Contact*/
 .footer {
-    background-color: rgb(234, 208, 198);
+    position: sticky;
+    margin: 5px auto;
+    border: 7px solid rgb(122, 171, 171);
 }
