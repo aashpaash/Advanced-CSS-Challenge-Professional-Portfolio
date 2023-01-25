@@ -7,38 +7,47 @@ header {
     text-align: center;
 }
 
+body {
+    background-color: lavenderblush;
+    font-family: 'Calibri', sans-serif;
+}
 /*Navation to profoilo pages*/
 .navigation-bar {
     background-color: rgb(247, 235, 221);
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: xx-large;
     margin-bottom: 15px;
 }
 
-/*Photo of me*/
+/*Hero Image*/
 .hero {
-    height: 1000px;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
     display: flex;
     margin-bottom: 25px;
     background-image: url("./MainHeadShot.JPG");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     border: 7px solid rgb(122, 171, 171);
 }
 
-
-/*Navation Pages*/
+/*Navation Pages
 #ABOUT {
     height: 100px;
     font-family: 'Calibri', sans-serif;
     grid-area: auto;
     margin: 10px 10px;
+    box-sizing: border-box;
 }
 
 #PROJECTS {
     height: 100px;
     font-family: 'Calibri', sans-serif;
+    grid-area: auto;
     margin: 10px 10px;
     box-sizing: border-box;
 }
@@ -46,26 +55,27 @@ header {
 #JOKES {
     height: 100px;
     font-family: 'Calibri', sans-serif;
+    grid-area: auto;
     margin: 10px 10px;
     box-sizing: border-box;
 
-}
+}*/
 
-/*Conent sections*/
-.card {
+
+/*Conent Sections
+a {
+    color: #a78b8b;
+    text-decoration: none;
+    font-size: x-large;
+}*/
+
+/*.card {
     background-color: rgb(231, 173, 153);
     border: 7px solid rgb(122, 171, 171);
     flex: 1 1 20%;
     margin: auto;
     box-sizing: border-box;
-}
-
-body {
-    background-color: lavenderblush;
-    font-family: 'Calibri', sans-serif;
-}
-
-
+}*/
 
 
 h1{
@@ -88,23 +98,19 @@ h3{
     text-align: left;
 }
 
-.img {
+/*.img {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
-section { 
-
-    margin-bottom: 5px;
-}
 
 /*Contact*/
 .footer {
     position: sticky;
-    margin: 5px auto;
-    border: 7px solid rgb(122, 171, 171);
+    margin: 5px 10px auto;
+    border: 7px solid rgb(155, 225, 225);
 }
