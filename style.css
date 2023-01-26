@@ -11,11 +11,32 @@ body {
     background-color: lavenderblush;
     font-family: 'Calibri', sans-serif;
 }
+
+h1{
+    color: rgb(6, 137, 137);
+    font-size: 100px;
+    text-align: center;
+
+}
+
+h2{
+    color: rgb(164, 164, 248);
+    font-size: 70px;
+    text-align: left;
+}
+
+h3{
+    color: rgb(168, 205, 241);
+    font-size: 70px;
+    font-family: 'Calibri', sans-serif;
+    text-align: left;
+}
+
 /*Navation to profoilo pages*/
 .navigation-bar {
     background-color: rgb(247, 235, 221);
     padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'sans-serif', sans-serif;
     text-align: center;
     font-size: xx-large;
     margin-bottom: 15px;
@@ -32,7 +53,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: 7px solid rgb(122, 171, 171);
+    border: 7px solid rgba(170, 227, 227, 0.5);
 }
 
 /*Navation Pages
@@ -61,42 +82,26 @@ body {
 
 }*/
 
-
-/*Conent Sections
-a {
-    color: #a78b8b;
-    text-decoration: none;
-    font-size: x-large;
-}*/
-
-/*.card {
-    background-color: rgb(231, 173, 153);
-    border: 7px solid rgb(122, 171, 171);
+.container {
+    width: 400px;
+    height: 225px;
+}
+.about-card {
+    background-color: rgb(237, 216, 209);
     flex: 1 1 20%;
-    margin: auto;
-    box-sizing: border-box;
-}*/
-
-
-h1{
-    color: rgb(6, 137, 137);
-    font-size: 100px;
-    text-align: center;
-
 }
-
-h2{
-    color: lavender;
-    font-size: 70px;
-    text-align: left;
-}
-
-h3{
-    color: rgb(168, 205, 241);
-    font-size: 70px;
-    font-family: 'Calibri', sans-serif;
-    text-align: left;
-}
+.projects-card {
+    background-color: rgb(237, 216, 209);
+    flex: 1 1 20%;
+};    
+.jokes-card {
+    background-color: rgb(237, 216, 209);
+    flex: 1 1 20%;
+};   
+.contact-card {
+    background-color: rgb(237, 216, 209);
+    flex: 1 1 20%;
+};   
 
 /*.img {
     display: flex;
@@ -106,7 +111,6 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }*/
-
 
 /*Contact*/
 .footer {
