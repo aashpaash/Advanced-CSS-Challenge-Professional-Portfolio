@@ -87,19 +87,15 @@ h3{
     height: 225px;
 }
 .about-card {
-    background-color: rgb(237, 216, 209);
     flex: 1 1 20%;
 }
 .projects-card {
-    background-color: rgb(237, 216, 209);
     flex: 1 1 20%;
 };    
 .jokes-card {
-    background-color: rgb(237, 216, 209);
     flex: 1 1 20%;
 };   
 .contact-card {
-    background-color: rgb(237, 216, 209);
     flex: 1 1 20%;
 };   
 
