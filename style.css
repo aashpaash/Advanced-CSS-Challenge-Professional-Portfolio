@@ -81,6 +81,14 @@ h3{
     box-sizing: border-box;
 
 }*/
+/* Add hover effect to the images */
+.joke-image {
+    transition: opacity 0.5s; /* Smooth transition effect */
+  }
+  
+  .joke-image:hover {
+    opacity: 0.5; /* Reduce opacity on hover */
+  }
 
 .container {
     width: 400px;
